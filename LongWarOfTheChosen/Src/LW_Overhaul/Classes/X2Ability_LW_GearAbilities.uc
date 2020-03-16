@@ -31,6 +31,12 @@ var config int NANOFIBER_CRITDEF_BONUS;
 
 var config int BONUS_COILGUN_SHRED;
 
+var config int XCOMHORROR_ACTIONPOINTCOST;
+var config int XCOMHORROR_COOLDOWN_LOCAL;
+var config int XCOMHORROR_COOLDOWN_GLOBAL;
+var config int XCOMHORROR_TOHIT_BASECHANCE;
+var config int XCOMHORROR_WILL_DECREASE;
+var config int XCOMHORROR_DAMAGE;
 var localized string strWeight;
 var localized string AblativeHPLabel;
 
@@ -87,8 +93,10 @@ static function array<X2DataTemplate> CreateTemplates()
 
 	Templates.AddItem(CreateSedateAbility());
 	Templates.AddItem(CreateBonusShredAbility('CoilgunBonusShredAbility', default.BONUS_COILGUN_SHRED));
-
+	Templates.AddItem(CreateHorror_XCOM());
+	
 	//Templates.AddItem(CreateConsumeWhenActivatedAbility ('ConsumeShapedCharge', 'ShapedChargeUsed'));
+	Templates.AddItem(Create_AnimSet_Passive('Horror_XCOM_AS', "Spectre_Horror_ANIM.Anims.AS_Horror"));
 
 	return Templates;
 }
@@ -654,6 +662,125 @@ static function X2AbilityTemplate CreateBonusShredAbility(name AbilityName, int 
 	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
 	Template.BuildVisualizationFn = TypicalAbility_BuildVisualization;
 	Template.BuildInterruptGameStateFn = TypicalAbility_BuildInterruptGameState;
+
+	return Template;
+}
+
+static function X2AbilityTemplate Create_AnimSet_Passive(name TemplateName, string AnimSetPath)
+{
+	local X2AbilityTemplate                 Template;
+	local X2Effect_AdditionalAnimSets		AnimSetEffect;
+
+	`CREATE_X2ABILITY_TEMPLATE(Template, TemplateName);
+
+	Template.eAbilityIconBehaviorHUD = eAbilityIconBehavior_NeverShow;
+	Template.bDisplayInUITooltip = false;
+	Template.bDisplayInUITacticalText = false;
+	Template.bDontDisplayInAbilitySummary = true;
+	Template.Hostility = eHostility_Neutral;
+
+	Template.AbilityToHitCalc = default.DeadEye;
+	Template.AbilityTargetStyle = default.SelfTarget;
+	Template.AbilityTriggers.AddItem(default.UnitPostBeginPlayTrigger);
+	
+	AnimSetEffect = new class'X2Effect_AdditionalAnimSets';
+	AnimSetEffect.AddAnimSetWithPath(AnimSetPath);
+	AnimSetEffect.BuildPersistentEffect(1, true, false, false);
+	Template.AddTargetEffect(AnimSetEffect);
+
+	Template.bUniqueSource = true;
+
+	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+
+	return Template;
+}
+
+
+static function X2AbilityTemplate CreateHorror_XCOM()
+{
+	local X2AbilityTemplate Template;
+	local X2AbilityCost_ActionPoints ActionPointCost;
+	local X2AbilityCooldown_LocalAndGlobal Cooldown;
+	local X2AbilityToHitCalc_RollStat RollStat;
+	local X2Condition_UnitProperty UnitPropertyCondition;
+	local X2Condition_UnitImmunities UnitImmunityCondition;
+	local X2Effect_ApplyWeaponDamage DamageEffect;
+	local X2Effect_PerkAttachForFX WillLossEffect;
+	local X2Effect_LifeSteal LifeStealEffect;
+
+	`CREATE_X2ABILITY_TEMPLATE(Template, 'Horror_XCOM');
+
+	Template.AbilitySourceName = 'eAbilitySource_Psionic';
+	Template.IconImage = "img:///UILibrary_XPACK_Common.PerkIcons.UIPerk_horror";
+	Template.Hostility = eHostility_Offensive;
+
+	ActionPointCost = new class'X2AbilityCost_ActionPoints';
+	ActionPointCost.iNumPoints = default.XCOMHORROR_ACTIONPOINTCOST;
+	ActionPointCost.bConsumeAllPoints = false;
+	Template.AbilityCosts.AddItem(ActionPointCost);
+
+	Cooldown = new class'X2AbilityCooldown_LocalAndGlobal';
+	Cooldown.iNumTurns = default.XCOMHORROR_COOLDOWN_LOCAL;
+	Cooldown.NumGlobalTurns = default.XCOMHORROR_COOLDOWN_GLOBAL;
+	Template.AbilityCooldown = Cooldown;
+
+	Template.AbilityTargetStyle = default.SimpleSingleTarget;
+	Template.AbilityTriggers.AddItem(default.PlayerInputTrigger);
+
+	// This will be a stat contest
+	RollStat = new class'X2AbilityToHitCalc_RollStat';
+	RollStat.StatToRoll = eStat_Will;
+	RollStat.BaseChance = default.XCOMHORROR_TOHIT_BASECHANCE;
+	Template.AbilityToHitCalc = RollStat;
+
+	// Shooter conditions
+	Template.AbilityShooterConditions.AddItem(default.LivingShooterProperty);
+
+	// Target conditions
+	UnitPropertyCondition = new class'X2Condition_UnitProperty';
+	UnitPropertyCondition.ExcludeDead = true;
+	UnitPropertyCondition.ExcludeFriendlyToSource = true;
+	UnitPropertyCondition.ExcludeRobotic = true;
+	UnitPropertyCondition.FailOnNonUnits = true;
+	UnitPropertyCondition.ExcludeAlien = true;
+	Template.AbilityTargetConditions.AddItem(UnitPropertyCondition);
+
+	Template.AbilityTargetConditions.AddItem(default.GameplayVisibilityCondition);
+
+	UnitImmunityCondition = new class'X2Condition_UnitImmunities';
+	UnitImmunityCondition.AddExcludeDamageType('Mental');
+	UnitImmunityCondition.bOnlyOnCharacterTemplate = true;
+	Template.AbilityTargetConditions.AddItem(UnitImmunityCondition);
+
+	DamageEffect = new class'X2Effect_ApplyWeaponDamage';
+	DamageEffect.EffectDamageValue.Damage = default.XCOMHORROR_DAMAGE;
+	DamageEffect.DamageTypes.AddItem('Psi');
+	DamageEffect.bIgnoreArmor = true;
+	Template.AddTargetEffect(DamageEffect);
+
+
+	LifeStealEffect = new class'X2Effect_LifeSteal';
+	Template.AddTargetEffect(LifeStealEffect);
+
+	Template.BuildNewGameStateFn = TypicalAbility_BuildGameState;
+	Template.BuildInterruptGameStateFn = TypicalAbility_BuildInterruptGameState;
+	Template.BuildVisualizationFn = TypicalAbility_BuildVisualization;
+
+	Template.bShowActivation = true;
+
+	Template.CinescriptCameraType = "Spectre_Horror";
+
+	Template.LostSpawnIncreasePerUse = class'X2AbilityTemplateManager'.default.StandardShotLostSpawnIncreasePerUse;
+
+	Template.AdditionalAbilities.AddItem('Horror_XCOM_AS');
+
+
+	Template.PostActivationEvents.AddItem('HorrorActivated');
+//BEGIN AUTOGENERATED CODE: Template Overrides 'Horror'
+	Template.bFrameEvenWhenUnitIsHidden = true;
+	Template.ActionFireClass = class'XComGame.X2Action_Fire_Horror';
+	Template.CustomFireAnim = 'HL_Horror_StartA';
+//END AUTOGENERATED CODE: Template Overrides 'Horror'
 
 	return Template;
 }

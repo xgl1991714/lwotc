@@ -2414,6 +2414,11 @@ function ReconfigGear(X2ItemTemplate Template, int Difficulty)
 				EquipmentTemplate.Abilities.AddItem('Tracer_Rounds_Ability_PP');
 			}
 		}
+		if(EquipmentTemplate.DataName == 'RefractionField')
+		{
+			EquipmentTemplate.Abilities.Length=0;
+			EquipmentTemplate.Abilities.AddItem('Horror_XCOM');
+		}
 		// Adds stat markup for medium plated armor
 		ArmorTemplate = X2ArmorTemplate(Template);
 		if (ArmorTemplate != none)
