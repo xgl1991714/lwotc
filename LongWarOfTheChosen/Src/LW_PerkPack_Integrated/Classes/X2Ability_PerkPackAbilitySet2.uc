@@ -635,6 +635,7 @@ static function X2AbilityTemplate AddDenseSmoke()
 	local ResearchConditional					Conditional;
 
 	Template = PurePassive('DenseSmoke', "img:///UILibrary_LW_PerkPack.LW_AbilityDenseSmoke");
+	X2Effect_Persistent(Template.AbilityTargetEffects[0]).EffectName = 'DenseSmoke_Dummy';
 
 	Conditional.ResearchProjectName = 'AdvancedGrenades';
 	Conditional.ItemName = 'SmokeGrenadeMk2';
@@ -681,12 +682,22 @@ static function X2AbilityTemplate AddDenseSmoke()
 
 static function X2AbilityTemplate AddCombatStims()
 {
-	return PurePassive('CombatStims_LW', "img:///UILibrary_XPerkIconPack.UIPerk_smoke_shot_2");
+	local X2AbilityTemplate Template;
+
+	Template = PurePassive('CombatStims_LW', "img:///UILibrary_XPerkIconPack.UIPerk_smoke_shot_2");
+	X2Effect_Persistent(Template.AbilityTargetEffects[0]).EffectName = 'CombatStims_LW_Dummy';
+
+	return Template;
 }
 
 static function X2AbilityTemplate AddRegenSmoke()
 {
-	return PurePassive('RegenSmoke_LW', "img:///UILibrary_XPerkIconPack.UIPerk_smoke_medkit");
+	local X2AbilityTemplate Template;
+
+	Template = PurePassive('RegenSmoke_LW', "img:///UILibrary_XPerkIconPack.UIPerk_smoke_medkit");
+	X2Effect_Persistent(Template.AbilityTargetEffects[0]).EffectName = 'RegenSmoke_LW_Dummy';
+
+	return Template;
 }
 
 //this ability allows the next use (this turn) of smoke grenade or flashbang to be free
