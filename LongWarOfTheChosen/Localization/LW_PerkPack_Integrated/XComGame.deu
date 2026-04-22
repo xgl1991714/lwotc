@@ -147,8 +147,8 @@ LocPromotionPopupText="<Bullet/> Du erhältst für jeden sichtbaren Feind +5 auf
 LocFriendlyName="Lasst sie kommen"
 LocFlyOverText="Lasst sie kommen"
 LocLongDescription="Kritische Treffer mit der Waffe <Ability:BOUND_WEAPON_NAME/> oder Explosionwaffen erhalten +1 Schaden für je zwei sichtbare Feinde (maximal +8)."
-LocHelpText=""Kritische Treffer mit der Waffe <Ability:BOUND_WEAPON_NAME/> oder Explosionwaffen erhalten +1 Schaden für je zwei sichtbare Feinde (maximal +8)."
-LocPromotionPopupText="<Bullet/> "Kritische Treffer erhalten +1 Schaden für je zwei sichtbare Feinde (maximal +8).<br/><Bullet/> Über Truppsicht sichtbare Feinde zählen für den Bonus.<br/><Bullet/> Wirkt sich auf die Waffe <Ability:BOUND_WEAPON_NAME/> sowie, falls der Soldat über die Fähigkeit Megakracher verfügt, auf Explosionwaffen (Granaten, Raketen etc.) aus.<br/>"
+LocHelpText="Kritische Treffer mit der Waffe <Ability:BOUND_WEAPON_NAME/> oder Explosionwaffen erhalten +1 Schaden für je zwei sichtbare Feinde (maximal +8)."
+LocPromotionPopupText="<Bullet/> Kritische Treffer erhalten +1 Schaden für je zwei sichtbare Feinde (maximal +8).<br/><Bullet/> Über Truppsicht sichtbare Feinde zählen für den Bonus.<br/><Bullet/> Wirkt sich auf die Waffe <Ability:BOUND_WEAPON_NAME/> sowie, falls der Soldat über die Fähigkeit Megakracher verfügt, auf Explosionwaffen (Granaten, Raketen etc.) aus.<br/>"
 
 [HardTarget X2AbilityTemplate]
 LocFriendlyName="Schwieriges Ziel"

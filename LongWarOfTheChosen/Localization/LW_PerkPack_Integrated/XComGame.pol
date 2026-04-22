@@ -100,7 +100,7 @@ LocFriendlyName="Specjalista od walki bezpośredniej"
 LocFlyOverText="Specjalista od walki bezpośredniej"
 LocLongDescription="W turze wroga może oddać darmowy strzał reakcji z broni głównej do widocznego wroga w promieniu 4 pól, który poruszy się albo strzeli."
 LocHelpText="W turze wroga może oddać darmowy strzał reakcji do widocznego wroga w promieniu 4 pól, który poruszy się albo strzeli."
-LocPromotionPopupText="<Bullet/> Nie działa gdy żołnierz jest w ukryciu.<br/><Bullet/> Dzięki tej zdolności możesz raz na turę strzelić do każdego wroga.</br><Bullet/> Zużywa <Ability:SelfAmmoCost/> szt. amunicji.<br/>""
+LocPromotionPopupText="<Bullet/> Nie działa gdy żołnierz jest w ukryciu.<br/><Bullet/> Dzięki tej zdolności możesz raz na turę strzelić do każdego wroga.</br><Bullet/> Zużywa <Ability:SelfAmmoCost/> szt. amunicji.<br/>"
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="Zabójcza bliskość"
@@ -718,7 +718,7 @@ LocFriendlyName="Zespolenie umysłów"
 LocFlyOverText="Zespolenie umysłów"
 LocLongDescription="Zapewnia bonus do woli, szansy na zadanie obrażeń krytycznych i punktów tarczy dla wszystkich sojuszników aż do czasu rozpoczęcia kolejnej tury."
 LocHelptext="Czasowo zapewnia bonus do woli, szansy na zadanie obrażeń krytycznych i punktów tarczy dla wszystkich sojuszników."
-LocPromotionPopupText="<Bullet/> Zapewnia wybranemu sojusznikowi 1 ablacyjny punkt zdrowia (czyli tarczy) oraz dodatkowy punkt za każde 30 punktów ofensywy PSI operatora używającego tej zdolności.<br/><Bullet/> Zapewnia wybranemu sojusznikowi 1 punkt woli za każde 10 punktów ofensywy PSI operatora.<br/><Bullet/> Efekt utrzymuje się do kolejnej tury operatora PSI.<br/><Bullet/> Czas odnawiania wynosi 3 tury.<br/><Bullet/> Cel musi być w zasięgu wzroku.<br/><Bullet/> Zaawansowany wzmacniacz PSI zapewnia więcej woli i ablacyjnych punktów zdrowia.<br/><Bullet/> Wymaga jednej akcji.<br/><Bullet/> Sojusznicy otrzymują +1% do szansy zadania obrażeń krytycznych na każde 10 pkt. ofensywy PSI Operatora używającego tej zdolności.<br/>""
+LocPromotionPopupText="<Bullet/> Zapewnia wybranemu sojusznikowi 1 ablacyjny punkt zdrowia (czyli tarczy) oraz dodatkowy punkt za każde 30 punktów ofensywy PSI operatora używającego tej zdolności.<br/><Bullet/> Zapewnia wybranemu sojusznikowi 1 punkt woli za każde 10 punktów ofensywy PSI operatora.<br/><Bullet/> Efekt utrzymuje się do kolejnej tury operatora PSI.<br/><Bullet/> Czas odnawiania wynosi 3 tury.<br/><Bullet/> Cel musi być w zasięgu wzroku.<br/><Bullet/> Zaawansowany wzmacniacz PSI zapewnia więcej woli i ablacyjnych punktów zdrowia.<br/><Bullet/> Wymaga jednej akcji.<br/><Bullet/> Sojusznicy otrzymują +1% do szansy zadania obrażeń krytycznych na każde 10 pkt. ofensywy PSI Operatora używającego tej zdolności.<br/>"
 
 [SoulMerge X2AbilityTemplate]
 LocFriendlyName="Zespolenie duszy"

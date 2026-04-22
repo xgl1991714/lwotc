@@ -831,7 +831,7 @@ LocPromotionPopupText="<Bullet/> A targeted enemy receives -<Ability:BODY_SHIELD
 LocFriendlyName="Emergency Life Support"
 LocFlyOverText="Emergency Life Support"
 LocLongDescription="Once per mission, when this unit is reduced to 0 HP, they always enter bleedout (unless they are suffering from an effect that prevents bleedout). Bleedout timer is extended by <Ability:EMERGENCY_LIFE_SUPPORT_BONUS_BLEEDINGOUT_TURNS> turns."
-LocPromotionPopupText="<Bullet/> "Once per mission, when this unit is reduced to 0 HP, they always enter bleedout (unless they are suffering from an effect that prevents bleedout).<br/><Bullet/> Adds <Ability:EMERGENCY_LIFE_SUPPORT_BONUS_BLEEDINGOUT_TURNS> turns to the bleedout timer.<br/>"
+LocPromotionPopupText="<Bullet/> Once per mission, when this unit is reduced to 0 HP, they always enter bleedout (unless they are suffering from an effect that prevents bleedout).<br/><Bullet/> Adds <Ability:EMERGENCY_LIFE_SUPPORT_BONUS_BLEEDINGOUT_TURNS> turns to the bleedout timer.<br/>"
 
 [IronSkin X2AbilityTemplate]
 LocFriendlyName="Iron Skin"

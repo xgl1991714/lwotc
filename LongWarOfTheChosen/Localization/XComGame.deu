@@ -6089,8 +6089,8 @@ LocFlyOverText="Auserwählten-Immunitäten"
 
 [HarborWave X2AbilityTemplate]
 LocFriendlyName="Hafenwelle"
-LocLongDescription="Erzeuge eine psionische Welle, die Schaden verursacht. Erhält Boni durch "Blutdurst" und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
-LocHelpText="Erzeuge eine psionische Welle, die Schaden verursacht, der durch "Blutdurst" erhöht wird. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocLongDescription="Erzeuge eine psionische Welle, die Schaden verursacht. Erhält Boni durch \"Blutdurst\" und hat eine Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
+LocHelpText="Erzeuge eine psionische Welle, die Schaden verursacht, der durch \"Blutdurst\" erhöht wird. Abklingzeit von <Ability:SelfCooldown_LW/> Runden."
 LocFlyOverText="Hafenwelle"
 
 [Brawler X2AbilityTemplate]
@@ -6364,7 +6364,7 @@ AbilityDescName="Automatikpistole"
 LocFriendlyName="Ersthelfer"
 LocLongDescription="Du kannst Medikits nun nach einer Sprintbewegung einsetzen. Gewährt 1 kostenloses Medikit. Ausgerüstete Medikits verfügen über <Ability:PARAMEDIC_BONUS_CHARGES/> zusätzliche Ladungen."
 LocHelpText="Du kannst Medikits nun nach einer Sprintbewegung einsetzen. Gewährt 1 kostenloses Medikit. Ausgerüstete Medikits verfügen über <Ability:PARAMEDIC_BONUS_CHARGES/> zusätzliche Ladungen."
-LocPromotionPopupText="<Bullet/> "Schaltet eine Fähigkeit frei, mit der du Medikits in Sprintreichweite einsetzen kannst.<br/><Bullet/> Gewährt zudem ein kostenloses Medikit.<br/><Bullet/> Ausgerüstete Medikits verfügen darüber hinaus über <Ability:PARAMEDIC_BONUS_CHARGES/> zusätzliche Ladungen."
+LocPromotionPopupText="<Bullet/> Schaltet eine Fähigkeit frei, mit der du Medikits in Sprintreichweite einsetzen kannst.<br/><Bullet/> Gewährt zudem ein kostenloses Medikit.<br/><Bullet/> Ausgerüstete Medikits verfügen darüber hinaus über <Ability:PARAMEDIC_BONUS_CHARGES/> zusätzliche Ladungen."
 
 [ParaMedikitHeal X2AbilityTemplate]
 LocFriendlyName="Erste Hilfe"

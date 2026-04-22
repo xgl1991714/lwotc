@@ -93,14 +93,14 @@ LocFriendlyName="Specialista corpo a corpo"
 LocFlyOverText="Specialista corpo a corpo"
 LocLongDescription="Durante i turni dei nemici, spara un colpo di reazione gratuito con l'arma primaria a un nemico visibile entro quattro caselle, se si muove o spara."
 LocHelpText="Durante i turni dei nemici, spara un colpo di reazione gratuito a un nemico visibile entro quattro caselle, se si muove o spara."
-LocPromotionPopupText="<Bullet/> Non si attiva se il soldato è in occultamento.<br/><Bullet/> Puoi sparare una volta per turno a ogni nemico con questa abilità.<br/><Bullet/> Richiede 2 unità di munizioni. <br/>""
+LocPromotionPopupText="<Bullet/> Non si attiva se il soldato è in occultamento.<br/><Bullet/> Puoi sparare una volta per turno a ogni nemico con questa abilità.<br/><Bullet/> Richiede 2 unità di munizioni. <br/>"
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
 LocFriendlyName="Specialista corpo a corpo"
 LocFlyOverText="Specialista corpo a corpo"
 LocLongDescription="Durante i turni dei nemici, spara un colpo di reazione gratuito con l'arma primaria a un nemico visibile entro quattro caselle, se si muove o spara."
 LocHelpText="Durante i turni dei nemici, spara un colpo di reazione gratuito a un nemico visibile entro quattro caselle, se si muove o spara."
-LocPromotionPopupText="<Bullet/> Non si attiva se il soldato è in occultamento.<br/><Bullet/> Puoi sparare una volta per turno a ogni nemico con questa abilità.<br/><Bullet/> Richiede <Ability:SelfAmmoCost/> unità di munizioni. <br/>""
+LocPromotionPopupText="<Bullet/> Non si attiva se il soldato è in occultamento.<br/><Bullet/> Puoi sparare una volta per turno a ogni nemico con questa abilità.<br/><Bullet/> Richiede <Ability:SelfAmmoCost/> unità di munizioni. <br/>"
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="Stretto contatto"

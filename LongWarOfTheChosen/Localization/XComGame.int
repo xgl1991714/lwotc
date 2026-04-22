@@ -187,7 +187,7 @@ LocPromotionPopupText="<Bullet/> Your Flamethrower can now panic enemies. Enemy 
 [PhosphorusPassive X2AbilityTemplate]
 LocFriendlyName="Phosphorus"
 LocFlyOverText="Phosphorus"
-LocLongDescription="Your flamethrower's base damage can now ignore fire immunities, and shred armor.""
+LocLongDescription="Your flamethrower's base damage can now ignore fire immunities, and shred armor."
 LocHelpText="Your flamethrower's base damage can now ignore fire immunities, and shred armor."
 LocPromotionPopupText="<Bullet/> While you can now damage fire immune enemies, they still cannot be set on fire.<br/><Bullet/> Flamethrower attacks shred 1 armor.</br>"
 

@@ -90,14 +90,14 @@ LocFriendlyName="근접 전투 전문가"
 LocFlyOverText="근접 전투 전문가"
 LocLongDescription="적의 턴에 반경 4타일 내의 보이는 적이 움직이거나 발포하면 행동력 소모 없이 주요 무기로 대응 사격을 합니다."
 LocHelpText="적의 턴에 반경 4타일 내의 보이는 적이 움직이거나 발포하면 행동력 소모 없이 대응 사격을 합니다."
-LocPromotionPopupText="<Bullet/> 병사가 잠행 상태일 때는 발동되지 않습니다.<br/><Bullet/> 이 능력으로 매 턴마다 각각의 적을 한 번씩만 공격할 수 있습니다.<br/><Bullet/> 2 탄약 포인트를 소모합니다.<br/>""
+LocPromotionPopupText="<Bullet/> 병사가 잠행 상태일 때는 발동되지 않습니다.<br/><Bullet/> 이 능력으로 매 턴마다 각각의 적을 한 번씩만 공격할 수 있습니다.<br/><Bullet/> 2 탄약 포인트를 소모합니다.<br/>"
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
 LocFriendlyName="근접 전투 전문가"
 LocFlyOverText="근접 전투 전문가"
 LocLongDescription="적의 턴에 반경 4타일 내의 보이는 적이 움직이거나 발포하면 행동력 소모 없이 주요 무기로 대응 사격을 합니다."
 LocHelpText="적의 턴에 반경 4타일 내의 보이는 적이 움직이거나 발포하면 행동력 소모 없이 대응 사격을 합니다."
-LocPromotionPopupText="<Bullet/> 병사가 잠행 상태일 때는 발동되지 않습니다.<br/><Bullet/> 이 능력으로 매 턴마다 각각의 적을 한 번씩 공격할 수 있습니다.<br/><Bullet/> <Ability:SelfAmmoCost/> 탄약 포인트를 소모합니다.<br/>""
+LocPromotionPopupText="<Bullet/> 병사가 잠행 상태일 때는 발동되지 않습니다.<br/><Bullet/> 이 능력으로 매 턴마다 각각의 적을 한 번씩 공격할 수 있습니다.<br/><Bullet/> <Ability:SelfAmmoCost/> 탄약 포인트를 소모합니다.<br/>"
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="밀착 공격"
@@ -730,7 +730,7 @@ LocFriendlyName="영혼 융합"
 LocFlyOverText="영혼 융합"
 LocLongDescription="정신 융합을 향상시켜 치명타율 보너스를 부여하고, 더 많은 의지와 임시 체력 보너스를 주며, 쿨타임을 감소시킵니다."
 LocHelpText="정신 융합의 효과가 향상됩니다."
-LocPromotionPopupText="<Bullet/> 정신 융합  감소의 쿨타임은 1턴입니다.<br/><Bullet/> 임시 체력 포인트 보너스를 사이오닉 공격 점수 20당 1씩 증가 시킵니다.<br/><Bullet/> 의지 보너스는 사이오닉 공격 점수 5당 1씩 증가 시킵니다.<br/><Bullet/> 사이오닉 공격 점수 5당 치명타율 +1%를 부여합니다.""
+LocPromotionPopupText="<Bullet/> 정신 융합  감소의 쿨타임은 1턴입니다.<br/><Bullet/> 임시 체력 포인트 보너스를 사이오닉 공격 점수 20당 1씩 증가 시킵니다.<br/><Bullet/> 의지 보너스는 사이오닉 공격 점수 5당 1씩 증가 시킵니다.<br/><Bullet/> 사이오닉 공격 점수 5당 치명타율 +1%를 부여합니다."
 
 [Shadowstrike_LW X2AbilityTemplate]
 LocFriendlyName="어둠 속의 습격"
@@ -1024,7 +1024,7 @@ LocFriendlyName="거대한 폭발"
 LocLongDescription="폭발 공격은 치명타를 입힐 수 있습니다. <Ability:BIGGESTBOOMSCHANCE/>% 확률로 <Ability:BIGGESTBOOMSDAMAGE/>의 추가 대미지를 입힙니다."
 LocHelpText="폭발 공격은 치명타를 입힐 수 있습니다."
 LocFlyOverText="거대한 폭발"
-LocPromotionPopupText="<Bullet/> 폭발 공격은 치명타를 입힐 수 있습니다. <Ability:BIGGESTBOOMSCHANCE/>% 확률로 <Ability:BIGGESTBOOMSDAMAGE/>의 추가 대미지를 입힙니다.<br/><Bullet/> 수류탄으로 치명타를 입힐 때, 화상과 같은 지속 대미지에 +1 을 부여합니다.""
+LocPromotionPopupText="<Bullet/> 폭발 공격은 치명타를 입힐 수 있습니다. <Ability:BIGGESTBOOMSCHANCE/>% 확률로 <Ability:BIGGESTBOOMSDAMAGE/>의 추가 대미지를 입힙니다.<br/><Bullet/> 수류탄으로 치명타를 입힐 때, 화상과 같은 지속 대미지에 +1 을 부여합니다."
 
 ; New Class loc
 
