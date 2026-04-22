@@ -100,7 +100,7 @@ LocFriendlyName="Specjalista od walki bezpośredniej"
 LocFlyOverText="Specjalista od walki bezpośredniej"
 LocLongDescription="W turze wroga może oddać darmowy strzał reakcji z broni głównej do widocznego wroga w promieniu 4 pól, który poruszy się albo strzeli."
 LocHelpText="W turze wroga może oddać darmowy strzał reakcji do widocznego wroga w promieniu 4 pól, który poruszy się albo strzeli."
-LocPromotionPopupText="<Bullet/> Nie działa gdy żołnierz jest w ukryciu.<br/><Bullet/> Dzięki tej zdolności możesz raz na turę strzelić do każdego wroga.</br><Bullet/> Zużywa <Ability:SelfAmmoCost/> szt. amunicji.<br/>""
+LocPromotionPopupText="<Bullet/> Nie działa gdy żołnierz jest w ukryciu.<br/><Bullet/> Dzięki tej zdolności możesz raz na turę strzelić do każdego wroga.<br><Bullet/> Zużywa <Ability:SelfAmmoCost/> szt. amunicji.<br/>""
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="Zabójcza bliskość"

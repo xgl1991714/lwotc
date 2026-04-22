@@ -181,7 +181,7 @@ LocFriendlyName="Phosphore"
 LocFlyOverText="Phosphore"
 LocLongDescription="Les dégâts de base de votre lance-flammes ignorent l'immunité au feu et peuvent endommager les armures."
 LocHelpText="Les dégâts de base de votre lance-flammes ignorent l'immunité au feu et peuvent endommager les armures."
-LocPromotionPopupText="<Bullet/> Les dégâts de base de votre lance-flammes ignorent l'immunité au feu.<br/><Bullet/> Les attaques de lance-flammes enlèvent 1 point d'armure.</br>"
+LocPromotionPopupText="<Bullet/> Les dégâts de base de votre lance-flammes ignorent l'immunité au feu.<br/><Bullet/> Les attaques de lance-flammes enlèvent 1 point d'armure.<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Incinérateur"
@@ -7320,7 +7320,7 @@ LocPromotionPopupText="<Bullet/> Vous pouvez déclencher la capacité Frappe en 
 LocFriendlyName="Boulet de démolition"
 LocLongDescription="Lorsque l'Overdrive est activé, vous brisez les murs et les abris en vous déplaçant."
 LocHelpText="Lorsque l'Overdrive est activé, vous brisez les murs et les abris en vous déplaçant."
-LocPromotionPopupText="<Bullet/> Le Boulet de démolition permet d'exposer l'ennemi aux attaques à revers. <br/><Bullet/> Placez des repères pour guider le Spark de façon optimale afin de détruire des abris et l'environnement. </br>"
+LocPromotionPopupText="<Bullet/> Le Boulet de démolition permet d'exposer l'ennemi aux attaques à revers. <br/><Bullet/> Placez des repères pour guider le Spark de façon optimale afin de détruire des abris et l'environnement. <br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombardement"

@@ -155,7 +155,7 @@ LocFriendlyName="Phosphor"
 LocFlyOverText="Phosphor"
 LocLongDescription="Dein Flammenwerfer kann jetzt auch mechanischen Einheiten Schaden zufügen und zerfetzt Rüstungen."
 LocHelpText="Dein Flammenwerfer kann jetzt auch mechanischen Einheiten Schaden zufügen und zerfetzt Rüstungen."
-LocPromotionPopupText="<Bullet/> Dein Flammenwerfer kann jetzt mechanischen Einheiten Schaden zufügen.<br/><Bullet/> Angriffe mit dem Flammenwerfer zerfetzen 1 Punkt Rüstung.</br>"
+LocPromotionPopupText="<Bullet/> Dein Flammenwerfer kann jetzt mechanischen Einheiten Schaden zufügen.<br/><Bullet/> Angriffe mit dem Flammenwerfer zerfetzen 1 Punkt Rüstung.<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Verbrennung"
@@ -6555,7 +6555,7 @@ LocPromotionPopupText="<Bullet/> Du kannst die Attacke-Fähigkeit auslösen, ind
 LocFriendlyName="Abrissbirne"
 LocLongDescription="Wenn Übersteuerung aktiv ist, kannst du beim Bewegen durch Wände und Deckungen hindurch brechen."
 LocHelpText="Wenn Übersteuerung aktiv ist, kannst du beim Bewegen durch Wände und Deckungen hindurch brechen."
-LocPromotionPopupText="<Bullet/> Abrissbirne kann genutzt werden, um Feinde für Flankenbeschuss freizulegen.<br/><Bullet/> Nutze Bewegungs-Wegpunkte, um dem SPARK eine optimale Route zur Zerstörung von Deckungen und der Umgebung vorzugeben.</br>"
+LocPromotionPopupText="<Bullet/> Abrissbirne kann genutzt werden, um Feinde für Flankenbeschuss freizulegen.<br/><Bullet/> Nutze Bewegungs-Wegpunkte, um dem SPARK eine optimale Route zur Zerstörung von Deckungen und der Umgebung vorzugeben.<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombardement"

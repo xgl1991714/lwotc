@@ -137,7 +137,7 @@ LocFriendlyName="Fosforo"
 LocFlyOverText="Fosforo"
 LocLongDescription=" Il tuo lanciafiamme danneggia ora le unità meccaniche e riduce le armature."
 LocHelpText=" Il tuo lanciafiamme danneggia ora le unità meccaniche e riduce le armature."
-LocPromotionPopupText="<Bullet/> Il tuo lanciafiamme può danneggiare le unità meccaniche.<br/><Bullet/> Il lanciafiamme riduce di 1 le armature.</br>"
+LocPromotionPopupText="<Bullet/> Il tuo lanciafiamme può danneggiare le unità meccaniche.<br/><Bullet/> Il lanciafiamme riduce di 1 le armature.<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Inceneritore"
@@ -4829,7 +4829,7 @@ LocPromotionPopupText="<Bullet/> Puoi attivare l'abilità Strike piazzando il cu
 LocFriendlyName="Demolizione"
 LocLongDescription="Se Overdrive è attivo, abbatte muri e ripari quando si muove."
 LocHelpText="Se Overdrive è attivo, abbatte muri e ripari quando si muove."
-LocPromotionPopupText="<Bullet/> Demolizione può esporre i nemici agli attacchi sul fianco.<br/><Bullet/> Usa le tappe dei movimenti in modo da guidare lo SPARK sul percorso ottimale per distruggere i ripari e l'ambiente.</br>"
+LocPromotionPopupText="<Bullet/> Demolizione può esporre i nemici agli attacchi sul fianco.<br/><Bullet/> Usa le tappe dei movimenti in modo da guidare lo SPARK sul percorso ottimale per distruggere i ripari e l'ambiente.<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombardamento"
