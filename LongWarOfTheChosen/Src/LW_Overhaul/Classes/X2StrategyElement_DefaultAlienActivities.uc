@@ -4164,7 +4164,7 @@ static function X2DataTemplate CreateBigSupplyExtractionTemplate()
 	Template.OnActivityStartedFn = none;
 	Template.WasMissionSuccessfulFn = none;  // always one objective
 	Template.GetMissionForceLevelFn = GetTypicalMissionForceLevel; // use regional ForceLevel
-	Template.GetMissionAlertLevelFn = GetTypicalMissionAlertLevel;
+	Template.GetMissionAlertLevelFn = GetBigExtractMissionAlertLevel;
 	Template.GetTimeUpdateFn = none;
 	Template.OnMissionExpireFn = none; // just remove the mission
 	Template.GetMissionRewardsFn = GetLogisticsReward;
