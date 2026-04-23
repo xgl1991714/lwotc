@@ -93,14 +93,14 @@ LocFriendlyName="近接戦闘スペシャリスト"
 LocFlyOverText="近接戦闘スペシャリスト"
 LocLongDescription="敵のターン中に、4タイル以内の視認可能な敵が移動/射撃すると、行動値消費ゼロでメイン武器による反応射撃を行う。"
 LocHelpText="敵のターン中に、4タイル以内の視認可能な敵が移動/射撃すると、行動値消費ゼロで反応射撃を行う。"
-LocPromotionPopupText="<Bullet/>兵士が潜伏状態の場合には発動しない。<br/><Bullet/>各ターンに1回、このアビリティでそれぞれの敵に射撃を行うことができる。<br/><Bullet/>弾薬を2発消費。<br/>""
+LocPromotionPopupText="<Bullet/>兵士が潜伏状態の場合には発動しない。<br/><Bullet/>各ターンに1回、このアビリティでそれぞれの敵に射撃を行うことができる。<br/><Bullet/>弾薬を2発消費。<br/>"
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
 LocFriendlyName="近接戦闘スペシャリスト"
 LocFlyOverText="近接戦闘スペシャリスト"
 LocLongDescription="敵のターン中に、4タイル以内の視認可能な敵が移動/射撃すると、行動値消費ゼロでメイン武器による反応射撃を行う。"
 LocHelpText="敵のターン中に、4タイル以内の視認可能な敵が移動/射撃すると、行動値消費ゼロで反応射撃を行う。"
-LocPromotionPopupText="<Bullet/>兵士が潜伏状態の場合には発動しない。<br/><Bullet/>各ターンに1回、このアビリティでそれぞれの敵に射撃を行うことができる。<br/><Bullet/>弾薬を<Ability:SelfAmmoCost/>発消費。<br/>""
+LocPromotionPopupText="<Bullet/>兵士が潜伏状態の場合には発動しない。<br/><Bullet/>各ターンに1回、このアビリティでそれぞれの敵に射撃を行うことができる。<br/><Bullet/>弾薬を<Ability:SelfAmmoCost/>発消費。<br/>"
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="クロース&パーソナル"

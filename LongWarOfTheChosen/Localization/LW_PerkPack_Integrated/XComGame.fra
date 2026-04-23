@@ -98,7 +98,7 @@ LocFlyOverText="Spécialiste en combat rapproché"
 LocLongDescription="Pendant les tours ennemis, tir réflexe gratuit avec votre <Ability:BOUND_WEAPON_NAME/> sur toute unité ennemie visible se déplaçant ou tirant dans un rayon de 4 cases."
 LocHelpText="Pendant les tours ennemis, tir réflexe gratuit avec votre <Ability:BOUND_WEAPON_NAME/> sur toute unité ennemie visible se déplaçant ou tirant dans un rayon de 4 cases."
 ; End translated (3)
-LocPromotionPopupText="<Bullet/> Ne se déclenche pas si le soldat est dissimulé. <br/><Bullet/> Cette capacité permet de tirer sur chaque ennemi une fois par tour.<br/><Bullet/> Chaque tir consomme 2 munitions.<br/>""
+LocPromotionPopupText="<Bullet/> Ne se déclenche pas si le soldat est dissimulé. <br/><Bullet/> Cette capacité permet de tirer sur chaque ennemi une fois par tour.<br/><Bullet/> Chaque tir consomme 2 munitions.<br/>"
 
 [CloseCombatSpecialistAttack X2AbilityTemplate]
 LocFriendlyName="Spécialiste en combat rapproché"
@@ -107,7 +107,7 @@ LocFlyOverText="Spécialiste en combat rapproché"
 LocLongDescription="Pendant les tours ennemis, tir réflexe gratuit avec votre <Ability:BOUND_WEAPON_NAME/> sur toute unité ennemie visible se déplaçant ou tirant dans un rayon de 4 cases."
 LocHelpText="Pendant les tours ennemis, tir réflexe gratuit sur toute unité ennemie visible se déplaçant ou tirant dans un rayon de 4 cases."
 ; End translated (2)
-LocPromotionPopupText="<Bullet/> Ne se déclenche pas si le soldat est dissimulé. <br/><Bullet/> Cette capacité permet de tirer sur chaque ennemi une fois par tour.<br/><Bullet/> Chaque tir consomme 2 munitions.<br/>""
+LocPromotionPopupText="<Bullet/> Ne se déclenche pas si le soldat est dissimulé. <br/><Bullet/> Cette capacité permet de tirer sur chaque ennemi une fois par tour.<br/><Bullet/> Chaque tir consomme 2 munitions.<br/>"
 
 [CloseandPersonal X2AbilityTemplate]
 LocFriendlyName="Proximité mortelle"

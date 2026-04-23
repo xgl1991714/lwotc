@@ -81,10 +81,10 @@ LocPromotionPopupText="<Bullet/> Les ressources gagnées en récompense, les all
 [ScavengerPassive X2AbilityTemplate]
 LocFriendlyName="Pillage"
 ; LWOTC translated
-LocLongDescription="Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres.""
-LocHelpText="Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres.""
+LocLongDescription="Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres."
+LocHelpText="Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres."
 LocFlyOverText="Pillage"
-LocPromotionPopupText="<Bullet/> Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres."<br/>"
+LocPromotionPopupText="<Bullet/> Les ressources gagnées en récompense, les alliages extraterrestres et l'élérium augmentent de <ABILITY:SCAVENGER_BONUS_MULTIPLIER/>% après les missions réussies. Tant que cet officier n'est affecté par aucun état négatif (désorienté, empoisonné, etc.), les membres de l'escouade ont une chance de récupérer de l'alliage extraterrestre et de l'élérium lorsqu'ils éliminent des extraterrestres.<br/>"
 ; End translated
 
 ;displayed on other soldier that receive the effect

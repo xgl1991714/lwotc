@@ -3676,7 +3676,7 @@ DisplayName="Radio de la resistencia"
 Summary="Si replicamos el equipo de comunicaciones desarrollado en el Avenger, sería posible establecer repetidores terrestres que extiendan aún más nuestro alcance. Con una cobertura más amplia, los refugios serán más eficientes en sus operaciones y nos resultará más fácil llegar a algunas de las regiones más apartadas del cuartel general."
 CodeName="Marconi"
 LongDescription="El Avenger nos sirve de forma adecuada en lo que concierne a la coordinación de nuestra red de comunicaciones, pero si queremos aumentar nuestro alcance y llegar a todos los puntos posibles, necesitaremos hacer algo más. Una serie de torres repetidoras bien colocadas bastarían si conseguimos miniaturizar la tecnología que hemos adaptado del equipo de comunicaciones de los alienígenas. Puede que sea difícil equilibrar los niveles de potencia de acuerdo con la mayor probabilidad de detección, pero es la mejor oportunidad que tenemos para expandir nuestras capacidades. Con el aumento de la cobertura, podemos esperar mejoras en la eficiencia de las operaciones de resistencia locales, fortaleciendo así los grupos que trabajan dentro del alcance de las torres. R. Tygan."
-UnlockedDescription="Repetidores de radio disponibles. IMPORTANTE: Para construir una Torre de Radio, navega el Avenger a la región en la que deseas construir la torre; abre la ventana de Gestión del Refugio al darle click al ícono de la torre en la región, y seleccionar el botón de "Construir repetidor de radio" en la esquina superior derecha de la ventana."
+UnlockedDescription="Repetidores de radio disponibles. IMPORTANTE: Para construir una Torre de Radio, navega el Avenger a la región en la que deseas construir la torre; abre la ventana de Gestión del Refugio al darle click al ícono de la torre en la región, y seleccionar el botón de \"Construir repetidor de radio\" en la esquina superior derecha de la ventana."
 
 [PlatedArmor X2TechTemplate]
 DisplayName="Armadura de combate"
@@ -5147,7 +5147,7 @@ DescriptionEntry="A pesar de que nuestra comprensión de la naturaleza del traba
 ; Rewrites
 
 [RadioRelays X2EncyclopediaTemplate]
-DescriptionEntry="Construir repetidores de radio ampliará la distancia desde la que podemos contactar con nuevas regiones sin explorar. Construirlos en los extremos de nuestro alcance actual será lo que más beneficio nos reporte en cuanto a extensión de distancia. Los repetidores de radio hacen que los rebeldes sean más efectivos en sus trabajos, y el coste de datos por contactar con regiones vecinas se ve reducido. IMPORTANTE: Para construir una Torre de Radio, navega el Avenger a la región en la que deseas construir la torre; abre la ventana de Gestión del Refugio al darle click al ícono de la torre en la región, y seleccionar el botón de "Construir repetidor de radio" en la esquina superior derecha de la ventana. Ten en cuenta que capturar una torrer regional dará a la resistencia un repetidor de radio en funcionamiento para la región."
+DescriptionEntry="Construir repetidores de radio ampliará la distancia desde la que podemos contactar con nuevas regiones sin explorar. Construirlos en los extremos de nuestro alcance actual será lo que más beneficio nos reporte en cuanto a extensión de distancia. Los repetidores de radio hacen que los rebeldes sean más efectivos en sus trabajos, y el coste de datos por contactar con regiones vecinas se ve reducido. IMPORTANTE: Para construir una Torre de Radio, navega el Avenger a la región en la que deseas construir la torre; abre la ventana de Gestión del Refugio al darle click al ícono de la torre en la región, y seleccionar el botón de \"Construir repetidor de radio\" en la esquina superior derecha de la ventana. Ten en cuenta que capturar una torrer regional dará a la resistencia un repetidor de radio en funcionamiento para la región."
 
 [BlackMarket X2EncyclopediaTemplate]
 DescriptionEntry="El mercado negro da acceso a un escaparate básico regentado por una red de traficantes que operan a espaldas de la administración ADVENT. XCOM puede comprar materiales adicionales con suministros. Los artículos no deseados también se pueden vender."
@@ -5862,7 +5862,7 @@ TacticalText="<Bullet/> Los Templarios poseen la cualidad de atacar a los enemig
 [CasterGauntlet_CV X2PairedWeaponTemplate]
 FriendlyName="Guanteletes de invocador"
 FriendlyNamePlural="Guanteletes de invocador"
-BriefSummary="Los guanteletes templarios fueron diseñados para amplificar la energía psiónica del usuario, pero en su esencia siguen siendo guantes: guantes metálicos resistentes capaces de resistir extremos mucho más allá de lo que la carne sola puede soportar"."
+BriefSummary="Los guanteletes templarios fueron diseñados para amplificar la energía psiónica del usuario, pero en su esencia siguen siendo guantes: guantes metálicos resistentes capaces de resistir extremos mucho más allá de lo que la carne sola puede soportar."
 TacticalText="<Bullet/> Los Templarios poseen la cualidad de atacar a los enemigos adyacentes con su fragmento incluso después de usar ambas acciones para moverse o correr, dentro del rango de su movimiento.\n<Bullet/> La decisión de entablar combate cuerpo a cuerpo con el enemigo puede ser decisiva, escoge el momento idóneo con cuidado.\n<Bullet/> Atento a las oportunidades para actualizar la efectividad de nuestras armas avanzadas; el enemigo es posible que tenga acceso a una tecnología mucho mejor."
 AbilityDescName="fragmento"
 
@@ -8022,7 +8022,7 @@ LocPromotionPopupText="<Bullet/> Esto no cuenta a los objetivos que sólo son vi
 LocFriendlyName="Defensa enfocada"
 LocLongDescription="Logras <Ability:+Defense/> de defensa y <Ability:+Dodge/> de esquiva adicional contra ataques del enemigo visible más cercano mientras no estés flanqueado."
 LocHelpText="Logras <Ability:+Defense/> de defensa y <Ability:+Dodge/> de esquiva adicional contra ataques del enemigo visible más cercano mientras no estés flanqueado."
-LocFlyOverText="LocFriendlyName="Defensa enfocada"
+LocFlyOverText="Defensa enfocada"
 LocPromotionPopupText="<Bullet/> La bonificación no se aplica contra ataques cuerpo a cuerpo.<br/><Bullet/> Si varios enemigos están a la misma distancia, obtendrás la bonificación contra todos ellos.<br/>"
 
 

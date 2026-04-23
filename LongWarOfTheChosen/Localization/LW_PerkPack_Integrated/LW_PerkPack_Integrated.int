@@ -11,7 +11,7 @@ DefaultTacticalAbilityContainerMod="Use Base-Game Tactical Ability HUD"
 DefaultTacticalAbilityContainerModTooltip="This mod allows for soldiers to have more than 15 active abilities by creating multiple pages of ability icons that players can sort through during missions. Select this option to turn off the functionality (presumably to use another mod)."
 
 NumDisplayedAbilitiesMod="Abilities Per Page in Tactical HUD"
-NumDisplayedAbilitiesModTooltip="Number of abilities to show per page in the Tactical HUD. This option does nothing if Use Base-Game Tactical Ability HUD option is set.""
+NumDisplayedAbilitiesModTooltip="Number of abilities to show per page in the Tactical HUD. This option does nothing if Use Base-Game Tactical Ability HUD option is set."
 
 [UIScreenListener_Armory_MainMenu_LWExpandedPerkTree]
 strExpandedMenuOption=Abilities

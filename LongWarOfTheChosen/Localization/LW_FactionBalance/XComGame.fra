@@ -176,7 +176,7 @@ LocFriendlyName="Ombre évanescente"
 LocFlyOverText="Ombre évanescente"
 LocLongDescription="Réduit le temps de rechargement de la capacité Obscurité de 1 tour. Procure un bonus cumulatif de +<Ability:IMPERSONAL_EDGE_AIM/> en visée durant 3 tours chaque fois que vous éliminez une unité avec un couteau de lancer."
 LocHelpText="Réduit le temps de rechargement de la capacité Obscurité de 1 tour. Procure un bonus cumulatif de +<Ability:IMPERSONAL_EDGE_AIM/> en visée durant 3 tours chaque fois que vous éliminez une unité avec un couteau de lancer."
-LocPromotionPopupText="<Bullet/> "Réduit le temps de rechargement de la capacité Obscurité de 1 tour. Procure un bonus cumulatif de +<Ability:IMPERSONAL_EDGE_AIM/> en visée durant 3 tours chaque fois que vous éliminez une unité avec un couteau de lancer.<br/>"
+LocPromotionPopupText="<Bullet/> Réduit le temps de rechargement de la capacité Obscurité de 1 tour. Procure un bonus cumulatif de +<Ability:IMPERSONAL_EDGE_AIM/> en visée durant 3 tours chaque fois que vous éliminez une unité avec un couteau de lancer.<br/>"
 
 [ImpersonalEdgePassive X2AbilityTemplate]
 LocFriendlyName="Ombre évanescente"
