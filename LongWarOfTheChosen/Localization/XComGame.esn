@@ -180,7 +180,7 @@ LocFriendlyName="Fósforo"
 LocFlyOverText="Fósforo"
 LocLongDescription="Tu lanzallamas ahora puede dañar unidades mecánicas y destrozar blindaje."
 LocHelpText="Tu lanzallamas ahora puede dañar unidades mecánicas y destrozar blindaje."
-LocPromotionPopupText="<Bullet/> Si bien ahora puedes dañar a los enemigos inmunes al fuego, como las unidades mecánicas, aún no es posible prenderles fuego.<br/><Bullet/> Ataques con el lanzallamas destrozan 1 punto de blindaje.</br>"
+LocPromotionPopupText="<Bullet/> Si bien ahora puedes dañar a los enemigos inmunes al fuego, como las unidades mecánicas, aún no es posible prenderles fuego.<br/><Bullet/> Ataques con el lanzallamas destrozan 1 punto de blindaje.<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Incinerador"
@@ -7932,7 +7932,7 @@ LocPromotionPopupText="<Bullet/> Para activar la habilidad Ataque, coloca el cur
 LocFriendlyName="Bola de demolición"
 LocLongDescription="Mientras la sobrecarga esté activa, atraviesa paredes y coberturas al moverte."
 LocHelpText="Mientras la sobrecarga esté activa, atraviesa paredes y coberturas al moverte."
-LocPromotionPopupText="<Bullet/> Se puede utilizar Bola de demolición para exponer a los enemigos a disparos de flanqueo.<br/><Bullet/> Usa puntos de ruta para guiar al SPARK por el mejor camino para destruir la cobertura y el entorno.</br>"
+LocPromotionPopupText="<Bullet/> Se puede utilizar Bola de demolición para exponer a los enemigos a disparos de flanqueo.<br/><Bullet/> Usa puntos de ruta para guiar al SPARK por el mejor camino para destruir la cobertura y el entorno.<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombardear"

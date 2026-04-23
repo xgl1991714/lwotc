@@ -137,7 +137,7 @@ LocFriendlyName="フォスフォラス"
 LocFlyOverText="フォスフォラス"
 LocLongDescription="火炎放射器が機械ユニットにダメージを与えることができ、アーマーを削る。"
 LocHelpText="火炎放射器が機械ユニットにダメージを与えることができ、アーマーを削る。"
-LocPromotionPopupText="<Bullet/>火炎放射器が機械ユニットにダメージを与えることができる。<br/><Bullet/>火炎放射器による攻撃がアーマーを1削る。</br>"
+LocPromotionPopupText="<Bullet/>火炎放射器が機械ユニットにダメージを与えることができる。<br/><Bullet/>火炎放射器による攻撃がアーマーを1削る。<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="インシネレーター"
@@ -4833,7 +4833,7 @@ LocPromotionPopupText="<Bullet/>打撃のアビリティは移動カーソルを
 LocFriendlyName="レッキング・ボール"
 LocLongDescription="オーバードライブ時、壁や遮へい物を破壊して通過できる。"
 LocHelpText="オーバードライブ時、壁や遮へい物を破壊して通過できる。"
-LocPromotionPopupText="<Bullet/>レッキング・ボールは、敵を挟撃射撃にさらすように使用できる。<br/><Bullet/>移動ウェイポイントを用いてSPARKを最適経路で誘導し、遮へい物やオブジェクトを破壊させよう。</br>"
+LocPromotionPopupText="<Bullet/>レッキング・ボールは、敵を挟撃射撃にさらすように使用できる。<br/><Bullet/>移動ウェイポイントを用いてSPARKを最適経路で誘導し、遮へい物やオブジェクトを破壊させよう。<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="ボンバード"

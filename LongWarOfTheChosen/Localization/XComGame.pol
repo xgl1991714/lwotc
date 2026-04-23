@@ -167,7 +167,7 @@ LocFriendlyName="Fosfor"
 LocFlyOverText="Fosfor"
 LocLongDescription="Twój miotacz ognia od tej chwili może zadawać obrażenia jednostkom mechanicznym i rozrywać ich pancerze."
 LocHelpText="Twój miotacz ognia od tej chwili może zadawać obrażenia jednostkom mechanicznym i rozrywać ich pancerze."
-LocPromotionPopupText="<Bullet/> Twój miotacz ognia od tej chwili może zadawać obrażenia jednostkom mechanicznym.<br/><Bullet/> Atak miotaczem ognia rozrywa 1 pkt pancerza. </br>"
+LocPromotionPopupText="<Bullet/> Twój miotacz ognia od tej chwili może zadawać obrażenia jednostkom mechanicznym.<br/><Bullet/> Atak miotaczem ognia rozrywa 1 pkt pancerza. <br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Spopielacz"
@@ -6929,7 +6929,7 @@ LocPromotionPopupText="<Bullet/> Możesz użyć ataku, naprowadzając kursor ruc
 LocFriendlyName="Kula do wyburzania"
 LocLongDescription="Gdy przeciążenie jest aktywne, podczas ruchu możesz przebijać się przez ściany i osłony."
 LocHelpText="Gdy przeciążenie jest aktywne, podczas ruchu możesz przebijać się przez ściany i osłony."
-LocPromotionPopupText="<Bullet/> Kula do wyburzania może służyć do odsłaniania wrogów na strzały z flanki.<br/><Bullet/> Użyj punktów nawigacyjnych ruchu, żeby poprowadzić Sparka optymalną drogą pozwalającą niszczyć osłony i otoczenie.</br>"
+LocPromotionPopupText="<Bullet/> Kula do wyburzania może służyć do odsłaniania wrogów na strzały z flanki.<br/><Bullet/> Użyj punktów nawigacyjnych ruchu, żeby poprowadzić Sparka optymalną drogą pozwalającą niszczyć osłony i otoczenie.<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombardowanie"

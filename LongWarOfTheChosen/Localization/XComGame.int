@@ -189,7 +189,7 @@ LocFriendlyName="Phosphorus"
 LocFlyOverText="Phosphorus"
 LocLongDescription="Your flamethrower's base damage can now ignore fire immunities, and shred armor.""
 LocHelpText="Your flamethrower's base damage can now ignore fire immunities, and shred armor."
-LocPromotionPopupText="<Bullet/> While you can now damage fire immune enemies, they still cannot be set on fire.<br/><Bullet/> Flamethrower attacks shred 1 armor.</br>"
+LocPromotionPopupText="<Bullet/> While you can now damage fire immune enemies, they still cannot be set on fire.<br/><Bullet/> Flamethrower attacks shred 1 armor.<br>"
 
 [Incinerator X2AbilityTemplate]
 LocFriendlyName="Incinerator"
@@ -8002,7 +8002,7 @@ LocPromotionPopupText="<Bullet/> You can trigger the Strike ability by placing t
 LocFriendlyName="Wrecking Ball"
 LocLongDescription="While Overdrive is active, break through walls and cover when moving."
 LocHelpText="While Overdrive is active, break through walls and cover when moving."
-LocPromotionPopupText="<Bullet/> Wrecking Ball can be used to expose enemies to flanking shots.<br/><Bullet/> Use movement waypoints to guide the <Ability:ClassName> on an optimal path for destroying cover and the environment.</br>"
+LocPromotionPopupText="<Bullet/> Wrecking Ball can be used to expose enemies to flanking shots.<br/><Bullet/> Use movement waypoints to guide the <Ability:ClassName> on an optimal path for destroying cover and the environment.<br>"
 
 [Bombard X2AbilityTemplate]
 LocFriendlyName="Bombard"
