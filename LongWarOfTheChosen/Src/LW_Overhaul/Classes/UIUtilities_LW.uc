@@ -394,7 +394,7 @@ function static string GetBoostedInfiltrationString(XComGameState_MissionSite Mi
 	InfiltrationString $= "\n";
 
 	ParamTag = XGParamTag(`XEXPANDCONTEXT.FindTag("XGParam"));
-	ParamTag.IntValue0 = int(InfiltratingSquad.CurrentInfiltration * 100.0 * BoostFactor);
+	ParamTag.IntValue0 = min(int(InfiltratingSquad.CurrentInfiltration * 100.0 * BoostFactor), 200); // Cap the infiltration display % at 200
 
 	bExpiringMission = MissionState.ExpirationDateTime.m_iYear < 2050;
 	bMustLaunch = ActivityState != none && ActivityState.bMustLaunch;
